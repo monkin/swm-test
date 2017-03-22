@@ -6,25 +6,29 @@ injectGlobal`
   body {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-
-  body.fontLoaded {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   #app {
-    background-color: #fafafa;
-    min-height: 100%;
-    min-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  @keyframes show-message {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
   }
 
-  p,
-  label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.5em;
-  }
 `;
