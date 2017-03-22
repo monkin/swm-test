@@ -150,3 +150,7 @@ This project would not be possible without the support by these amazing folks. [
 
 This project is licensed under the MIT license, Copyright (c) 2017 Maximilian
 Stoiber. For more information see `LICENSE.md`.
+
+# SWM Test Messenger
+
+You can open working example at <a href="http://monkin.github.io/swm-test-release" target="_blank">monkin.github.io/swm-test-release</a>.
