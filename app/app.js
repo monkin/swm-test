@@ -8,6 +8,8 @@
 // Needed for redux-saga es6 generator support
 import 'babel-polyfill';
 
+require('offline-plugin/runtime').install();
+
 // Needed fo material-ui
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
